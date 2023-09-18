@@ -1,0 +1,54 @@
+mat-toolbar {
+  display: flex;
+  flex-direction: inherit;
+}
+
+#menuToolBarID {
+  flex-direction: inherit;
+}
+
+.sidenav-container {
+  height: 100%;
+  transition: background-color 0.3s;
+}
+
+.sidenav {
+  width: 200px;
+  transition: background-color 0.3s;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.dark-mode {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+:host ::ng-deep span>span {
+  display: flex;
+}
+
+#layout-container {
+	width: 95%;
+  margin: auto;
+  margin-top: 3rem;
+  // padding-left: 13.5rem;
+  height: 100vh;
+}
+
+section {
+  transition: all 0.3s;
+}
+
+body.dark-mode {
+  transition: a
+}
